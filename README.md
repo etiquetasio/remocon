@@ -56,6 +56,6 @@ Request api key para o usuário gerado
 How to run the command
 # curl -X POST http://192.168.0.222:5000/queue -H "Content-Type:application/json" -d '{"execcmd":"touch finished","user":"testman","key":"EMghWAZxHl"}
 ```
-## Suporte or Contato
+## Suporte e Contato
 suporte@etiquetas.io
 https://etiquetas.io
