@@ -1,20 +1,20 @@
 ## Welcome to remocon Pages
 ![remocon-logo](https://user-images.githubusercontent.com/43131904/62931121-ba7ffd80-bdf8-11e9-9e5e-4a0e41450247.png)
 
-### Description
+### Descrição
 
-remocon is an API that executes CLI commands as a registered user on a Linux system remotely through a REST API.
+remocon é um server de API capaz de executar comandos CLI com um usuário registrado no sistema linux de forma remota através de uma Call API REST.
 You can now execute restricted user commands even through remote APIs.
 
 ### Scope of application
-1. *Run Docker remotely (Linux with Docker)*
+1. *Run Docker remotamente (Linux com Docker)*
 2. *One-time code execution (per-user execution)*
-3. *All commands available for Linux*
+3. *Suporta qualquer comando Linux*
 
 ### License
 MIT
 
-### Required
+### Requirido o pacote
 python2.7
 (Official: rpm version supports centos7 and redhat7 versions)
 
