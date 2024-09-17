@@ -18,12 +18,12 @@ MIT
 python2.7
 (Official: rpm version supports centos7 and redhat7 versions)
 
-remocon install
+Instalar o Remocon
 ```markdown
 yum remocon install
 # yum install https://github.com/etiquetasio/remocon/raw/master/remocon-1.0.0-1.el7.x86_64.rpm -y
 
-remocon Preferences
+Edite o arquivo .conf para setar suas preferências
 # vi /etc/remocon.conf
 `[MAIN]
 api_host = 0.0.0.0 -> Setar o IP do Serviço
@@ -53,8 +53,12 @@ Request api key para o usuário gerado
     "status": "success"
 }`
 
-How to run the command
-# curl -X POST http://192.168.0.222:5000/queue -H "Content-Type:application/json" -d '{"execcmd":"touch finished","user":"testman","key":"EMghWAZxHl"}
+Como rodar um Comando ???
+# curl -X POST http://ip_do_server:5000/queue -H "Content-Type:application/json" -d '{"execcmd":"touch finished","user":"testman","key":"EMghWAZxHl"}
+
+
+Exemplo Rodando comando para Renovar certificado LetsEncrypt com certbot.
+# curl -X POST http://ip_do_server:5000/queue -H "Content-Type:application/json" -d '{"execcmd":"certbot renew","user":"testman","key":"EMghWAZxHl"}
 ```
 ## Suporte e Contato
 suporte@etiquetas.io
