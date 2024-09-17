@@ -11,7 +11,7 @@ Você pode restringir os comandos que o usuário pode executar através do Servi
 2. *One-time code execution (per-user execution)*
 3. *Suporta qualquer comando Linux*
 
-### License
+### Licença do Software
 MIT
 
 ### Requerido o pacote
