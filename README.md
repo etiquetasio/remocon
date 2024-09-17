@@ -4,7 +4,7 @@
 ### Descrição
 
 remocon é um server de API capaz de executar comandos CLI com um usuário registrado no sistema linux de forma remota através de uma Call API REST.
-You can now execute restricted user commands even through remote APIs.
+Você pode restringir os comandos que o usuário pode executar através do Serviço API.
 
 ### Scope of application
 1. *Run Docker remotamente (Linux com Docker)*
