@@ -21,18 +21,18 @@ python2.7
 remocon install
 ```markdown
 yum remocon install
-# yum install https://github.com/saintkim4/remocon/raw/master/remocon-1.0.0-1.el7.x86_64.rpm -y
+# yum install https://github.com/etiquetasio/remocon/raw/master/remocon-1.0.0-1.el7.x86_64.rpm -y
 
 remocon Preferences
 # vi /etc/remocon.conf
 `[MAIN]
-api_host = 0.0.0.0 -> Set to ip to service
-api_port = 5000 -> Set to service port`
+api_host = 0.0.0.0 -> Setar o IP do Serviço
+api_port = 5000 -> Setar a porta para o serviço`
 
 remocon start
 # systemctl start remocon
 ```
-After creating an account to run commands on a Linux syste
+Agora crie a conta do usuário para que ele rode comandos no Linux
 ```markdown
 Criar usuário
 # useradd testman
@@ -56,6 +56,6 @@ Request api key para o usuário gerado
 How to run the command
 # curl -X POST http://192.168.0.222:5000/queue -H "Content-Type:application/json" -d '{"execcmd":"touch finished","user":"testman","key":"EMghWAZxHl"}
 ```
-## Support or Contact
+## Suporte or Contato
 suporte@etiquetas.io
 https://etiquetas.io
